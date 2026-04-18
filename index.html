@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Portfólio profissional de Joely Brito com projetos de desenvolvimento web e backend."
+		/>
+		<title>Joely Brito | Portfólio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header class="site-header" id="topo">
+			<div class="container nav-wrap">
+				<a class="brand" href="#topo" aria-label="Ir para o topo">
+					<span class="brand-mark">JB</span>
+					<span class="brand-text">Joely Brito</span>
+				</a>
+				<nav aria-label="Menu principal">
+					<ul class="menu">
+						<li><a href="#sobre">Sobre mim</a></li>
+						<li><a href="#projetos">Meus projetos</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="section" id="sobre" aria-labelledby="titulo-sobre">
+				<div class="container about-grid reveal">
+					<article>
+						<p class="eyebrow">Desenvolvedor Full Stack</p>
+						<h1 id="titulo-sobre">Sobre mim</h1>
+						<p>
+							Sou Joely Brito, desenvolvedor apaixonado por transformar ideias em
+							soluções digitais. Tenho experiência com JavaScript, Node.js,
+							Express, React, HTML5, CSS3 e integração com bancos de dados.
+						</p>
+						<p>
+							Gosto de criar aplicações com código limpo, arquitetura simples e
+							interfaces que funcionam bem tanto no desktop quanto no mobile.
+						</p>
+					</article>
+					<aside class="about-highlights" aria-label="Principais competências">
+						<img
+							src="https://avatars.githubusercontent.com/u/98559997?v=4"
+							alt="Foto de Joely Brito"
+							loading="lazy"
+						/>
+						<h3>Especialidades</h3>
+						<ul>
+							<li>Desenvolvimento de APIs REST</li>
+							<li>Interfaces responsivas com HTML/CSS/JS</li>
+							<li>Integração front-end e back-end</li>
+							<li>Versionamento e colaboração com Git/GitHub</li>
+						</ul>
+					</aside>
+				</div>
+			</section>
+
+			<section class="section projects" id="projetos" aria-labelledby="titulo-projetos">
+				<div class="container">
+					<div class="section-head reveal">
+						<h2 id="titulo-projetos">Meus projetos</h2>
+					</div>
+					<div id="projects-list" class="projects-grid" aria-live="polite"></div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer" id="contato">
+			<div class="container footer-wrap">
+				<p>© <span id="year"></span> Joely Brito. Todos os direitos reservados.</p>
+				<a href="https://github.com/Joely-Brito" target="_blank" rel="noopener noreferrer">
+					github.com/Joely-Brito
+				</a>
+			</div>
+		</footer>
+
+		<script src="index.js"></script>
+	</body>
+</html>
